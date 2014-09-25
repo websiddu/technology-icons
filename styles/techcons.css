@@ -1,12 +1,9 @@
-
-
 @font-face {
     font-family:"techcons";
     src:url("../fonts/techcons.eot");
     font-weight:normal;
     font-style:normal;
-}
-@font-face {
+}@font-face {
 	font-family:"techcons";
 	src:url("../fonts/techcons.eot");
 	src:url("../fonts/techcons.eot?#iefix") format("embedded-opentype"),
@@ -16,7 +13,6 @@
 	font-weight:normal;
 	font-style:normal;
 }
-
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
@@ -33,390 +29,261 @@
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
+ 
 
-
-
-/* Icons */
-
-
+/* Icons */ 
 .icon-dreamweaver:before {
 	content:"\f101";
 }
-
-
-
+ 
 .icon-fireworks:before {
 	content:"\f102";
 }
-
-
-
+ 
 .icon-flash:before {
 	content:"\f103";
 }
-
-
-
+ 
 .icon-illustrator:before {
 	content:"\f104";
 }
-
-
-
+ 
 .icon-indesign:before {
 	content:"\f105";
 }
-
-
-
+ 
 .icon-photoshop:before {
 	content:"\f106";
 }
-
-
-
+ 
 .icon-cassandra:before {
 	content:"\f107";
 }
-
-
-
+ 
 .icon-database:before {
 	content:"\f108";
 }
-
-
-
+ 
 .icon-hadoop:before {
 	content:"\f109";
 }
-
-
-
+ 
 .icon-mariadb:before {
 	content:"\f10a";
 }
-
-
-
+ 
 .icon-mysql-alt:before {
 	content:"\f10b";
 }
-
-
-
+ 
 .icon-mysql:before {
 	content:"\f10c";
 }
-
-
-
+ 
 .icon-postgres:before {
 	content:"\f10d";
 }
-
-
-
+ 
 .icon-sql:before {
 	content:"\f10e";
 }
-
-
-
+ 
 .icon-bootstrap:before {
 	content:"\f10f";
 }
-
-
-
+ 
 .icon-grails:before {
 	content:"\f110";
 }
-
-
-
+ 
 .icon-grailsalt:before {
 	content:"\f111";
 }
-
-
-
+ 
 .icon-platter:before {
 	content:"\f112";
 }
-
-
-
+ 
 .icon-playframework:before {
 	content:"\f113";
 }
-
-
-
+ 
 .icon-rails-alt:before {
 	content:"\f114";
 }
-
-
-
+ 
 .icon-rails:before {
 	content:"\f115";
 }
-
-
-
+ 
 .icon-c:before {
 	content:"\f116";
 }
-
-
-
+ 
 .icon-cplusplus:before {
 	content:"\f117";
 }
-
-
-
+ 
 .icon-csharp:before {
 	content:"\f118";
 }
-
-
-
+ 
 .icon-haskell:before {
 	content:"\f119";
 }
-
-
-
+ 
 .icon-java:before {
 	content:"\f11a";
 }
-
-
-
+ 
 .icon-nodejs:before {
 	content:"\f11b";
 }
-
-
-
+ 
 .icon-objectivec:before {
 	content:"\f11c";
 }
-
-
-
+ 
 .icon-perl:before {
 	content:"\f11d";
 }
-
-
-
+ 
 .icon-php-alt:before {
 	content:"\f11e";
 }
-
-
-
+ 
 .icon-php:before {
 	content:"\f11f";
 }
-
-
-
+ 
 .icon-python:before {
 	content:"\f120";
 }
-
-
-
+ 
 .icon-ruby:before {
 	content:"\f121";
 }
-
-
-
+ 
 .icon-scala:before {
 	content:"\f122";
 }
-
-
-
+ 
 .icon-debian:before {
 	content:"\f123";
 }
-
-
-
+ 
 .icon-fedora:before {
 	content:"\f124";
 }
-
-
-
+ 
 .icon-freebsd:before {
 	content:"\f125";
 }
-
-
-
+ 
 .icon-gnome:before {
 	content:"\f126";
 }
-
-
-
+ 
 .icon-java-duke:before {
 	content:"\f127";
 }
-
-
-
+ 
 .icon-kde:before {
 	content:"\f128";
 }
-
-
-
+ 
 .icon-linux-mint:before {
 	content:"\f129";
 }
-
-
-
+ 
 .icon-netbsd:before {
 	content:"\f12a";
 }
-
-
-
+ 
 .icon-rasbaerrypi:before {
 	content:"\f12b";
 }
-
-
-
+ 
 .icon-redhat:before {
 	content:"\f12c";
 }
-
-
-
+ 
 .icon-solaris:before {
 	content:"\f12d";
 }
-
-
-
+ 
 .icon-suse:before {
 	content:"\f12e";
 }
-
-
-
+ 
 .icon-ubuntu:before {
 	content:"\f12f";
 }
-
-
-
+ 
 .icon-osx:before {
 	content:"\f130";
 }
-
-
-
+ 
 .icon-apache:before {
 	content:"\f131";
 }
-
-
-
+ 
 .icon-jetty:before {
 	content:"\f132";
 }
-
-
-
+ 
 .icon-nginx-alt:before {
 	content:"\f133";
 }
-
-
-
+ 
 .icon-nginx:before {
 	content:"\f134";
 }
-
-
-
+ 
 .icon-reids:before {
 	content:"\f135";
 }
-
-
-
+ 
 .icon-tomcat:before {
 	content:"\f136";
 }
-
-
-
+ 
 .icon-ec3:before {
 	content:"\f137";
 }
-
-
-
+ 
 .icon-google-code:before {
 	content:"\f138";
 }
-
-
-
+ 
 .icon-heroku:before {
 	content:"\f139";
 }
-
-
-
+ 
 .icon-shell-alt:before {
 	content:"\f13a";
 }
-
-
-
+ 
 .icon-shell:before {
 	content:"\f13b";
 }
-
-
-
+ 
 .icon-shellscript:before {
 	content:"\f13c";
 }
-
-
-
+ 
 .icon-css-alt:before {
 	content:"\f13d";
 }
-
-
-
+ 
 .icon-css3:before {
 	content:"\f13e";
 }
-
-
-
+ 
 .icon-html5:before {
 	content:"\f13f";
 }
-
-
-
+ 
 .icon-js:before {
 	content:"\f140";
 }
