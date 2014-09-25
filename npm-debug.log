@@ -1,0 +1,177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'imagemin' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'imagemin', null ]
+5 verbose cache add name=undefined spec="imagemin" args=["imagemin",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'imagemin',
+6 verbose parsed url   path: 'imagemin',
+6 verbose parsed url   href: 'imagemin' }
+7 silly lockFile 2e6a8e89-imagemin imagemin
+8 verbose lock imagemin /Users/sid/.npm/2e6a8e89-imagemin.lock
+9 silly lockFile 2e6a8e89-imagemin imagemin
+10 silly lockFile 2e6a8e89-imagemin imagemin
+11 verbose addNamed [ 'imagemin', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f181a5ff-imagemin imagemin@
+14 verbose lock imagemin@ /Users/sid/.npm/f181a5ff-imagemin.lock
+15 silly addNameRange { name: 'imagemin', range: '*', hasData: false }
+16 verbose request where is /imagemin
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 30f4e87c4641f01e
+19 verbose url raw /imagemin
+20 verbose url resolving [ 'https://registry.npmjs.org/', './imagemin' ]
+21 verbose url resolved https://registry.npmjs.org/imagemin
+22 verbose request where is https://registry.npmjs.org/imagemin
+23 info trying registry request attempt 1 at 08:43:09
+24 verbose etag "CSDHO4B0CTYKW8NOU4YGYQYZF"
+25 http GET https://registry.npmjs.org/imagemin
+26 http 304 https://registry.npmjs.org/imagemin
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Tue, 23 Sep 2014 15:43:10 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Tue, 23 Sep 2014 15:43:10 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"CSDHO4B0CTYKW8NOU4YGYQYZF"',
+27 silly registry.get     'x-served-by': 'cache-lax1420-LAX',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1411486990.063924,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/imagemin from cache
+29 silly addNameRange number 2 { name: 'imagemin', range: '*', hasData: true }
+30 silly addNameRange versions [ 'imagemin',
+30 silly addNameRange   [ '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.4.5',
+30 silly addNameRange     '0.4.6',
+30 silly addNameRange     '0.4.7',
+30 silly addNameRange     '0.4.8',
+30 silly addNameRange     '0.4.9',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '2.0.0' ] ]
+31 verbose addNamed [ 'imagemin', '2.0.0' ]
+32 verbose addNamed [ '2.0.0', '2.0.0' ]
+33 silly lockFile 5b1ce213-imagemin-2-0-0 imagemin@2.0.0
+34 verbose lock imagemin@2.0.0 /Users/sid/.npm/5b1ce213-imagemin-2-0-0.lock
+35 silly lockFile d93fffde--org-imagemin-imagemin-2-0-0-tgz https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz
+36 verbose lock https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz /Users/sid/.npm/d93fffde--org-imagemin-imagemin-2-0-0-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz',
+37 verbose addRemoteTarball   '10d4896531f5b1dcf7360490bd904ada2fc7b159' ]
+38 info retry fetch attempt 1 at 08:43:10
+39 verbose fetch to= /var/folders/z8/m1d63bk56x5f88xnf8rwm1r40000gn/T/npm-1277-wJbLRTLs/registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz
+40 http GET https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz
+41 http 200 https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz
+42 silly lockFile d93fffde--org-imagemin-imagemin-2-0-0-tgz https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz
+43 silly lockFile d93fffde--org-imagemin-imagemin-2-0-0-tgz https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz
+44 silly lockFile 5b1ce213-imagemin-2-0-0 imagemin@2.0.0
+45 silly lockFile 5b1ce213-imagemin-2-0-0 imagemin@2.0.0
+46 silly lockFile f181a5ff-imagemin imagemin@
+47 silly lockFile f181a5ff-imagemin imagemin@
+48 silly resolved [ { name: 'imagemin',
+48 silly resolved     version: '2.0.0',
+48 silly resolved     description: 'Minify images',
+48 silly resolved     license: 'MIT',
+48 silly resolved     repository: { type: 'git', url: 'https://github.com/imagemin/imagemin' },
+48 silly resolved     author:
+48 silly resolved      { name: 'Kevin Mårtensson',
+48 silly resolved        email: 'kevinmartensson@gmail.com',
+48 silly resolved        url: 'https://github.com/kevva' },
+48 silly resolved     engines: { node: '>=0.10.0' },
+48 silly resolved     bin: { imagemin: 'cli.js' },
+48 silly resolved     scripts: { test: 'node test/test.js' },
+48 silly resolved     files: [ 'cli.js', 'index.js' ],
+48 silly resolved     keywords: [ 'compress', 'gif', 'image', 'jpeg', 'minify', 'png', 'svg' ],
+48 silly resolved     dependencies:
+48 silly resolved      { 'concat-stream': '^1.4.6',
+48 silly resolved        'get-stdin': '^3.0.0',
+48 silly resolved        nopt: '^3.0.1',
+48 silly resolved        'stream-combiner': '^0.2.1',
+48 silly resolved        through2: '^0.6.1',
+48 silly resolved        vinyl: '^0.4.3',
+48 silly resolved        'vinyl-fs': '^0.3.7',
+48 silly resolved        'imagemin-gifsicle': '^2.0.0',
+48 silly resolved        'imagemin-jpegtran': '^2.0.0',
+48 silly resolved        'imagemin-optipng': '^2.0.0',
+48 silly resolved        'imagemin-pngquant': '^2.0.0',
+48 silly resolved        'imagemin-svgo': '^2.0.0' },
+48 silly resolved     devDependencies: { ava: '^0.0.4' },
+48 silly resolved     optionalDependencies:
+48 silly resolved      { 'imagemin-gifsicle': '^2.0.0',
+48 silly resolved        'imagemin-jpegtran': '^2.0.0',
+48 silly resolved        'imagemin-optipng': '^2.0.0',
+48 silly resolved        'imagemin-pngquant': '^2.0.0',
+48 silly resolved        'imagemin-svgo': '^2.0.0' },
+48 silly resolved     gitHead: '88487b38ad5e96672d21d6daf7268868c01e96c6',
+48 silly resolved     bugs: { url: 'https://github.com/imagemin/imagemin/issues' },
+48 silly resolved     homepage: 'https://github.com/imagemin/imagemin',
+48 silly resolved     _id: 'imagemin@2.0.0',
+48 silly resolved     _shasum: '10d4896531f5b1dcf7360490bd904ada2fc7b159',
+48 silly resolved     _from: 'imagemin@',
+48 silly resolved     _npmVersion: '1.4.23',
+48 silly resolved     _npmUser: { name: 'kevva', email: 'kevinmartensson@gmail.com' },
+48 silly resolved     maintainers: [ [Object], [Object] ],
+48 silly resolved     dist:
+48 silly resolved      { shasum: '10d4896531f5b1dcf7360490bd904ada2fc7b159',
+48 silly resolved        tarball: 'http://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz' },
+48 silly resolved     directories: {},
+48 silly resolved     _resolved: 'https://registry.npmjs.org/imagemin/-/imagemin-2.0.0.tgz' } ]
+49 info install imagemin@2.0.0 into /usr/local/lib
+50 info installOne imagemin@2.0.0
+51 verbose lib/node_modules/imagemin unbuild
+52 verbose tar unpack /Users/sid/.npm/imagemin/2.0.0/package.tgz
+53 silly lockFile 25995332--local-lib-node-modules-imagemin tar:///usr/local/lib/node_modules/imagemin
+54 verbose lock tar:///usr/local/lib/node_modules/imagemin /Users/sid/.npm/25995332--local-lib-node-modules-imagemin.lock
+55 silly lockFile 727c393e-d-npm-imagemin-2-0-0-package-tgz tar:///Users/sid/.npm/imagemin/2.0.0/package.tgz
+56 verbose lock tar:///Users/sid/.npm/imagemin/2.0.0/package.tgz /Users/sid/.npm/727c393e-d-npm-imagemin-2-0-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 error Error: EACCES, mkdir '/usr/local/lib/node_modules/imagemin'
+58 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/imagemin']
+58 error   errno: 3,
+58 error   code: 'EACCES',
+58 error   path: '/usr/local/lib/node_modules/imagemin',
+58 error   fstream_type: 'Directory',
+58 error   fstream_path: '/usr/local/lib/node_modules/imagemin',
+58 error   fstream_class: 'DirWriter',
+58 error   fstream_stack:
+58 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+58 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+58 error      'Object.oncomplete (fs.js:107:15)' ] }
+59 error Please try running this command again as root/Administrator.
+60 error System Darwin 13.4.0
+61 error command "node" "/usr/local/bin/npm" "install" "-g" "imagemin"
+62 error cwd /Users/sid/work/websiddu/projects/techcons
+63 error node -v v0.10.32
+64 error npm -v 1.4.28
+65 error path /usr/local/lib/node_modules/imagemin
+66 error fstream_path /usr/local/lib/node_modules/imagemin
+67 error fstream_type Directory
+68 error fstream_class DirWriter
+69 error code EACCES
+70 error errno 3
+71 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/imagemin'
+72 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+72 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+72 error fstream_stack Object.oncomplete (fs.js:107:15)
+73 verbose exit [ 3, true ]

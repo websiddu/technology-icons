@@ -1,0 +1,136 @@
+// $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "prism.scss";
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  background: #efefea;
+  overflow-y: scroll;
+}
+
+.muted {
+  color: #888;
+  font-size: 14px;
+}
+
+.container-fluid {
+  max-width: 950px;
+  padding: 50px;
+  background: #fff;
+}
+
+.content {
+  min-height: 300px;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.search {
+  width: 100%;
+  border: solid 1px #ddd;
+  padding: 5px 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  &:focus {
+    outline: 0;
+    border: solid 1px $brand-success;
+  }
+}
+
+.block-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block {
+  position: relative;
+  em {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    line-height: 1;
+    left: 0;
+    color: $brand-success;
+  }
+  .block-name {
+    padding-left: 50px;
+    min-height: 50px;
+    font-size: 18px;
+    padding-top: 5px;
+  }
+}
+
+
+
+.animate.ng-enter,
+.animate.ng-leave {
+    -webkit-transition: 400ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+    -moz-transition: 400ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+    -ms-transition: 400ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+    -o-transition: 400ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+    transition: 400ms cubic-bezier(0.420, 0.000, 0.580, 1.000) all;
+    position: relative;
+    display: block;
+}
+
+.animate.ng-leave.animate.ng-leave-active,
+.animate.ng-enter {
+    -webkit-transform: scaleY(0);
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    height: 0px;
+    opacity: 0;
+}
+
+.animate.ng-enter.animate.ng-enter-active,
+.animate.ng-leave {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+    height: 30px;
+    opacity: 1;
+}
+
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
