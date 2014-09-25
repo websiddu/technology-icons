@@ -27,7 +27,7 @@
     <![endif]-->
     <div class="container-fluid" ng-controller="mainCtrl">
         <div class="col-md-8">
-            <h1 class="nomargin">TECHCONS</h1>
+            <a href="./" class="brand"><h1 class="nomargin">TECHCONS</h1></a>
             <h4>Technology icon font</h4>
         </div>
         <div class="col-md-4">
@@ -47,7 +47,7 @@
 
         </div>
 
-    <input type="text" class="search" placeholder="Start typing eg. jqery" ng-model="q">
+    <input type="text" class="search" placeholder="Start typing eg. jqery, web, adobe etc..." ng-model="q">
 
 <!--         <div class="row-fluid">
           <span class="label label-info"> Adobe </span>
@@ -444,7 +444,7 @@
     </script>
 
         <div class='row-fluid content'>
-          <div class="col-md-4 col-sm-6 col-xs-12 block-container animate" ng-repeat="icon in icons | filter: q">
+          <div class="col-md-4 col-sm-6 col-xs-12 block-container animate" ng-repeat="icon in icons | filter:q">
             <div class="block" data-name="{{icon.glyph}}">
               <em class="{{icon.baseClass}} {{icon.classPrefix}}{{icon.glyph}}">
               </em>
@@ -453,6 +453,10 @@
               </div>
             </div>
           </div>
+          <div ng-show="(icons | filter:q).length == 0" class="center-align">
+            <span class="muted center-align">I don't think we have that icon, please create an <a href="https://github.com/websiddu/techcons/issues" target="_blank">issue</a>.</span>
+          </div>
+
         </div>
         <div class="clearfix"></div>
         <div class="row-fluid">
@@ -460,41 +464,13 @@
             <h3>Usage</h3>
 
             <p>Firstly, you have to declare the font in your CSS stylesheet:</p>
-<pre><code class="language-css">@font-face {
-    font-family:"techcons";
-    src:url("../fonts/techcons.eot");
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-  font-family:"techcons";
-  src:url("../fonts/techcons.eot");
-  src:url("../fonts/techcons.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/techcons.woff") format("woff"),
-    url("../fonts/techcons.ttf") format("truetype"),
-    url("../fonts/techcons.svg?#techcons") format("svg");
-  font-weight:normal;
-  font-style:normal;
-}
-
-// Bootstrap Overrides
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family:"techcons";
-  display:inline-block;
-  vertical-align:middle;
-  line-height:1;
-  font-weight:normal;
-  font-style:normal;
-  speak:none;
-  text-decoration:inherit;
-  text-transform:none;
-  text-rendering:optimizeLegibility;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-}
-</code></pre>
+            <h4>CSS</h4>
+            <pre data-src="styles/techcons.css"></pre>
+            <h4>HTML</h4>
+            <pre><code class="language-html">&lt;em class="icon-photoshop"&gt;&lt;/em&gt;
+&lt;em class="icon-mysql"&gt;&lt;/em&gt;
+&lt;span class="icon-redis"&gt;&lt;/span&gt;
+&lt;a href="#" class="icon-rails"&gt;&lt;/a&gt;</code></pre>
 
           </div>
 <div class="col-md-4">
@@ -503,6 +479,14 @@
   <br>
   <br>
   <a class="btn btn-success" href="https://github.com/websiddu/techcons" target="_blank"> Fork on Github </a>
+<br><br>
+
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="websiddu" data-hashtags="techcons">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              <br><br>
+
+               <a href="https://twitter.com/websiddu" class="twitter-follow-button" data-show-count="false">Follow @websiddu</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <br><br>
 <h4>License</h4>
 <p>It's <strong>free</strong> for whatever use ( commercial or personal ), both for web or for printing purpose. Licensed under the <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL">Open Font License</a>.</p>
@@ -519,7 +503,7 @@
         <div class="row-fluid">
             <div class="col-md-8">
               <h3>Contributing</h3>
-              <p> You are welcome to add svg icons to the icons folder and submit a pull request or If you want any specific logo to be added to the list please create a issue.</p>
+              <p> You are welcome to add svg icons to the icons folder and submit a pull request or If you want any specific logo to be added to the list please create an <a href="https://github.com/websiddu/techcons/issues">issue</a>.</p>
             </div>
             <div class="col-md-4">
 

@@ -3,14 +3,8 @@
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "prism.scss";
+@import "_prism.scss";
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
 
 /* Space out content a bit */
 body {
@@ -21,6 +15,23 @@ body {
 .muted {
   color: #888;
   font-size: 14px;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.center-align {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a.brand {
+  display: inline-block;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .container-fluid {
