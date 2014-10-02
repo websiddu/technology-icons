@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata>
-Created by FontForge 20120731 at Wed Oct  1 22:30:49 2014
+Created by FontForge 20120731 at Wed Oct  1 23:18:18 2014
  By sid
 Created by sid with FontForge 2.0 (http://fontforge.sf.net)
 </metadata>
@@ -19,7 +19,7 @@ Created by sid with FontForge 2.0 (http://fontforge.sf.net)
     bbox="-1.29032 -64 512.333 449.547"
     underline-thickness="25"
     underline-position="-52"
-    unicode-range="U+F101-F14F"
+    unicode-range="U+F101-F150"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -406,11 +406,13 @@ q0 -13 1 -18q1 -2 2 -7.5t1 -8.5q1 -5 8 -14q4 -6 12 -9t19 -3q17 0 31 7v34q-8 -6 -
 d="M-8 448zM33 447h345q13 0 22.5 -9t9.5 -21v-1v-1q-1 -1 -1 -2l-34 -310q2 -20 -17 -30l-137 -67q-7 -3 -14 -3t-14 3l-138 67q-9 5 -14 14q-4 5 -5 12l-34 313l-1 1q-1 1 -1 2v1q0 13 10 22t23 9zM144 346q-25 0 -40 -10q-13 -9 -13 -30v-22q0 -17 -7 -23q-8 -6 -25 -6
 h-8v-24h8q16 0 25 -7q7 -6 7 -22v-21q0 -22 13 -31t40 -9h28v24h-9q-16 0 -23 5q-6 4 -6 20v18q0 19 -5 25q-5 7 -20 10q14 3 20 11q5 6 5 24v18q0 16 6 20q7 5 23 5h9v25h-28zM238 346v-25h9q16 0 23 -5q5 -4 5 -20v-18q0 -16 6 -24t20 -11q-15 -3 -20 -10q-6 -7 -6 -25
 v-18q0 -16 -5 -20q-7 -5 -23 -5h-9v-24h27q27 0 41 9q13 9 13 31v21q0 16 7 22q9 7 25 7h7v24h-7q-17 0 -25 6q-7 6 -7 23v22q0 21 -13 30q-15 10 -41 10h-27z" />
-    <glyph glyph-name="uniF14D" unicode="&#xf14d;" horiz-adv-x="442" 
+    <glyph glyph-name="uniF14D" unicode="&#xf14d;" horiz-adv-x="408" 
+d="M0 422h408l-38 -415l-166 -45l-166 45zM326 287l5 50h-256l6 -50h130l-7 -3l-119 -49l4 -49h34l143 -1l-4 -65l-58 -16l-56 14l-3 40h-52l7 -78l104 -31l104 31l14 155h-118v0z" />
+    <glyph glyph-name="uniF14E" unicode="&#xf14e;" horiz-adv-x="442" 
 d="M-29 448zM66 412h376l-67 -334l-201 -66l-174 66l18 89h74l-7 -36l105 -41l122 41l17 84h-302l15 75h302l9 48h-302z" />
-    <glyph glyph-name="uniF14E" unicode="&#xf14e;" horiz-adv-x="353" 
+    <glyph glyph-name="uniF14F" unicode="&#xf14f;" horiz-adv-x="353" 
 d="M-74 448zM0 412h353l-33 -361l-144 -39l-144 40zM65 338l13 -134h153l-6 -57l-49 -13l-49 13l-3 37h-45l7 -71l90 -25l90 25l12 136h-161l-4 45h169l4 44h-221z" />
-    <glyph glyph-name="uniF14F" unicode="&#xf14f;" horiz-adv-x="425" 
+    <glyph glyph-name="uniF150" unicode="&#xf150;" horiz-adv-x="425" 
 d="M-38 448zM0 437h425v-426h-425v426zM323 244h1q-28 0 -43 -15q-16 -16 -16 -38q0 -25 13 -38t35 -22l10 -4q16 -7 21 -11q8 -6 8 -16q0 -8 -7 -14q-6 -5 -20 -5q-17 0 -24 6q-9 7 -15 18l-33 -19q8 -16 27 -29q18 -12 46 -12q30 0 47 14q19 16 19 42q0 24 -14 38
 q-15 15 -39 25l-10 4q-14 6 -19 10t-5 14q0 7 5 12t13 5q10 0 15 -4q7 -5 11 -13l31 20q-10 18 -23 25t-34 7zM191 242h1v-136q0 -14 -6 -20q-5 -5 -16 -5q-10 0 -16 6q-4 4 -9 14l-34 -19q8 -16 22 -26q16 -11 38 -11q27 0 44 15q16 15 16 45v137h-40z" />
   </font>
