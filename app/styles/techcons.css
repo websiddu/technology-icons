@@ -336,15 +336,19 @@
 	content:"\f14c";
 }
  
-.icon-css3:before {
+.icon-css3-alt:before {
 	content:"\f14d";
 }
  
-.icon-html5:before {
+.icon-css3:before {
 	content:"\f14e";
 }
  
-.icon-js:before {
+.icon-html5:before {
 	content:"\f14f";
+}
+ 
+.icon-js:before {
+	content:"\f150";
 }
 
