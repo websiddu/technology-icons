@@ -3,7 +3,7 @@
 
 Techcons is a webfont which includes many technology icons.
 
-Demo & dowmload links : http://websiddu.github.io/techcons
+Demo & dowmload links : http://websiddu.github.io/technology-icons/
 
 ## How to use
 
