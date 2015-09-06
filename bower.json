@@ -31,6 +31,10 @@
     "node_modules",
     "bower_components",
     "test",
+    "app",
+    "dist/*.*",
+    "dist/styles/main.css",
+    "dist/scripts",
     "tests"
   ]
 }
