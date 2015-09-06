@@ -7,6 +7,20 @@ Demo & dowmload links : http://websiddu.github.io/technology-icons/
 
 ## How to use
 
+If you are using bower.
+
+```
+  bower install technology-icons
+```
+
+Make sure you add your font files to the folder(you have to changed the font paths according to your project)
+
+```
+  <link rel="stylesheet" href="bower_components/technology-icons/dist/styles/technology-icons.css">
+```
+
+Manual download
+
 #### [Download](https://github.com/websiddu/technology-icons/archive/gh-pages.zip)
 
 - Once you download the .zip file unzip it.
