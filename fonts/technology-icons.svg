@@ -2,14 +2,14 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20150905 at Sun Sep  6 00:53:25 2015
+Created by FontForge 20150905 at Sun Sep  6 01:16:30 2015
  By sid
 Copyright (c) 2015, sid
 </metadata>
 <defs>
-<font id="techcons" horiz-adv-x="512" >
+<font id="technology-icons" horiz-adv-x="512" >
   <font-face 
-    font-family="techcons"
+    font-family="technology-icons"
     font-weight="400"
     font-stretch="normal"
     units-per-em="512"
