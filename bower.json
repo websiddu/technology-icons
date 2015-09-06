@@ -5,7 +5,7 @@
     "app/fonts/technology-icons.*",
     "app/styles/technology-icons.css"
   ],
-  "dependencies": {
+  "devDependencies": {
     "bootstrap-sass-official": "~3.2.0",
     "modernizr": "~2.8.2",
     "angular": "~1.2.26",
