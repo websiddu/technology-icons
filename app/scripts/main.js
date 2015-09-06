@@ -1,7 +1,7 @@
 'use strict';
 (function() {
-  var techconsApp = window.angular.module('techconsApp', ['ngAnimate']);
-  techconsApp.controller('mainCtrl', [ '$scope', function($scope){
+  var technologyIconsApp = window.angular.module('technologyIconsApp', ['ngAnimate']);
+  technologyIconsApp.controller('mainCtrl', [ '$scope', function($scope){
     $scope.icons = window.icons;
     $scope.search = '';
   }]);
