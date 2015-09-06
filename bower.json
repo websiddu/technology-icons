@@ -27,12 +27,15 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "*.*",
     "node_modules",
     "bower_components",
     "test",
+    "fonts",
+    "styles",
     "app",
-    "dist/*.*",
+    "!dist/styles/technology-icons.css",
+    "!dist/fonts/*.*",
     "dist/styles/main.css",
     "dist/scripts",
     "tests"
