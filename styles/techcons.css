@@ -84,299 +84,327 @@
 	content:"\f10d";
 }
  
-.icon-sass:before {
+.icon-less:before {
 	content:"\f10e";
 }
  
-.icon-cassandra:before {
+.icon-sass:before {
 	content:"\f10f";
 }
  
-.icon-database:before {
+.icon-cassandra:before {
 	content:"\f110";
 }
  
-.icon-hadoop:before {
+.icon-database:before {
 	content:"\f111";
 }
  
-.icon-mariadb:before {
+.icon-hadoop:before {
 	content:"\f112";
 }
  
-.icon-mongodb:before {
+.icon-mariadb:before {
 	content:"\f113";
 }
  
-.icon-mysql-alt:before {
+.icon-mongodb:before {
 	content:"\f114";
 }
  
-.icon-mysql:before {
+.icon-mysql-alt:before {
 	content:"\f115";
 }
  
-.icon-postgres:before {
+.icon-mysql:before {
 	content:"\f116";
 }
  
-.icon-sql:before {
+.icon-postgres:before {
 	content:"\f117";
 }
  
-.icon-backbone:before {
+.icon-sql:before {
 	content:"\f118";
 }
  
-.icon-bootstrap:before {
+.icon-backbone:before {
 	content:"\f119";
 }
  
-.icon-express:before {
+.icon-bootstrap:before {
 	content:"\f11a";
 }
  
-.icon-grails:before {
+.icon-express:before {
 	content:"\f11b";
 }
  
-.icon-grailsalt:before {
+.icon-grails:before {
 	content:"\f11c";
 }
  
-.icon-laravel-alt:before {
+.icon-grailsalt:before {
 	content:"\f11d";
 }
  
-.icon-laravel:before {
+.icon-laravel-alt:before {
 	content:"\f11e";
 }
  
-.icon-phonegap:before {
+.icon-laravel:before {
 	content:"\f11f";
 }
  
-.icon-platter:before {
+.icon-phonegap:before {
 	content:"\f120";
 }
  
-.icon-playframework:before {
+.icon-platter:before {
 	content:"\f121";
 }
  
-.icon-rails-alt:before {
+.icon-playframework:before {
 	content:"\f122";
 }
  
-.icon-rails:before {
+.icon-rails-alt:before {
 	content:"\f123";
 }
  
-.icon-jquery-alt:before {
+.icon-rails:before {
 	content:"\f124";
 }
  
-.icon-jquery:before {
+.icon-jira-alt:before {
 	content:"\f125";
 }
  
-.icon-c:before {
+.icon-jira:before {
 	content:"\f126";
 }
  
-.icon-cplusplus:before {
+.icon-jquery-alt:before {
 	content:"\f127";
 }
  
-.icon-csharp:before {
+.icon-jquery:before {
 	content:"\f128";
 }
  
-.icon-haskell:before {
+.icon-c:before {
 	content:"\f129";
 }
  
-.icon-java:before {
+.icon-cplusplus:before {
 	content:"\f12a";
 }
  
-.icon-nodejs:before {
+.icon-csharp:before {
 	content:"\f12b";
 }
  
-.icon-objectivec:before {
+.icon-haskell:before {
 	content:"\f12c";
 }
  
-.icon-perl:before {
+.icon-java:before {
 	content:"\f12d";
 }
  
-.icon-php-alt:before {
+.icon-nodejs:before {
 	content:"\f12e";
 }
  
-.icon-php:before {
+.icon-objectivec:before {
 	content:"\f12f";
 }
  
-.icon-python:before {
+.icon-perl:before {
 	content:"\f130";
 }
  
-.icon-ruby:before {
+.icon-php-alt:before {
 	content:"\f131";
 }
  
-.icon-scala:before {
+.icon-php:before {
 	content:"\f132";
 }
  
-.icon-debian:before {
+.icon-python:before {
 	content:"\f133";
 }
  
-.icon-fedora:before {
+.icon-ruby:before {
 	content:"\f134";
 }
  
-.icon-freebsd:before {
+.icon-scala:before {
 	content:"\f135";
 }
  
-.icon-gnome:before {
+.icon-debian:before {
 	content:"\f136";
 }
  
-.icon-java-duke:before {
+.icon-fedora:before {
 	content:"\f137";
 }
  
-.icon-kde:before {
+.icon-freebsd:before {
 	content:"\f138";
 }
  
-.icon-linux-mint:before {
+.icon-gnome:before {
 	content:"\f139";
 }
  
-.icon-netbsd:before {
+.icon-java-duke:before {
 	content:"\f13a";
 }
  
-.icon-rasbaerrypi:before {
+.icon-kde:before {
 	content:"\f13b";
 }
  
-.icon-redhat:before {
+.icon-linux-mint:before {
 	content:"\f13c";
 }
  
-.icon-solaris:before {
+.icon-netbsd:before {
 	content:"\f13d";
 }
  
-.icon-suse:before {
+.icon-rasbaerrypi:before {
 	content:"\f13e";
 }
  
-.icon-ubuntu:before {
+.icon-redhat:before {
 	content:"\f13f";
 }
  
-.icon-osx:before {
+.icon-solaris:before {
 	content:"\f140";
 }
  
-.icon-apache:before {
+.icon-suse:before {
 	content:"\f141";
 }
  
-.icon-jetty:before {
+.icon-ubuntu:before {
 	content:"\f142";
 }
  
-.icon-memcached:before {
+.icon-confluence:before {
 	content:"\f143";
 }
  
-.icon-nginx-alt:before {
+.icon-osx:before {
 	content:"\f144";
 }
  
-.icon-nginx:before {
+.icon-codeignitor:before {
 	content:"\f145";
 }
  
-.icon-reids:before {
+.icon-zend:before {
 	content:"\f146";
 }
  
-.icon-tomcat:before {
+.icon-apache:before {
 	content:"\f147";
 }
  
-.icon-ec3:before {
+.icon-jetty:before {
 	content:"\f148";
 }
  
-.icon-github-circle-alt:before {
+.icon-memcached:before {
 	content:"\f149";
 }
  
-.icon-github-circle:before {
+.icon-nginx-alt:before {
 	content:"\f14a";
 }
  
-.icon-github:before {
+.icon-nginx:before {
 	content:"\f14b";
 }
  
-.icon-google-code:before {
+.icon-reids:before {
 	content:"\f14c";
 }
  
-.icon-heroku:before {
+.icon-tomcat:before {
 	content:"\f14d";
 }
  
-.icon-shell-alt:before {
+.icon-ec3:before {
 	content:"\f14e";
 }
  
-.icon-shell:before {
+.icon-github-circle-alt:before {
 	content:"\f14f";
 }
  
-.icon-shellscript:before {
+.icon-github-circle:before {
 	content:"\f150";
 }
  
-.icon-opensource:before {
+.icon-github:before {
 	content:"\f151";
 }
  
-.icon-git-squared:before {
+.icon-google-code:before {
 	content:"\f152";
 }
  
-.icon-css-alt:before {
+.icon-heroku:before {
 	content:"\f153";
 }
  
-.icon-css3-alt:before {
+.icon-shell-alt:before {
 	content:"\f154";
 }
  
-.icon-css3:before {
+.icon-shell:before {
 	content:"\f155";
 }
  
-.icon-html5:before {
+.icon-shellscript:before {
 	content:"\f156";
 }
  
-.icon-js:before {
+.icon-opensource:before {
 	content:"\f157";
+}
+ 
+.icon-bower:before {
+	content:"\f158";
+}
+ 
+.icon-git-squared:before {
+	content:"\f159";
+}
+ 
+.icon-css-alt:before {
+	content:"\f15a";
+}
+ 
+.icon-css3-alt:before {
+	content:"\f15b";
+}
+ 
+.icon-css3:before {
+	content:"\f15c";
+}
+ 
+.icon-html5:before {
+	content:"\f15d";
+}
+ 
+.icon-js:before {
+	content:"\f15e";
 }
 
