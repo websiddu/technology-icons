@@ -56,7 +56,7 @@ a.brand {
   margin: 20px 0;
   &:focus {
     outline: 0;
-    border: solid 1px $brand-success;
+    border: solid 1px #5cb85c;
   }
 }
 
@@ -73,7 +73,7 @@ a.brand {
     top: 0;
     line-height: 1;
     left: 0;
-    color: $brand-success;
+    color: #5cb85c;
   }
   .block-name {
     padding-left: 50px;

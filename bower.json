@@ -1,11 +1,36 @@
 {
-  "name": "techcons",
-  "private": true,
+  "name": "technology-icons",
+  "description": "Lot of Technology icons in a webfont.",
+  "main": [
+    "app/fonts/technology-icons.*",
+    "app/styles/technology-icons.css"
+  ],
   "dependencies": {
     "bootstrap-sass-official": "~3.2.0",
     "modernizr": "~2.8.2",
     "angular": "~1.2.26",
     "prismjs": "*",
     "angular-animate": "~1.2.25"
-  }
+  },
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "icons",
+    "webfonts",
+    "techicons",
+    "technologyicons"
+  ],
+  "authors": [
+    "Siddhartha Gudipati <me@websiddu.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

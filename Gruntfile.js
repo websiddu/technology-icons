@@ -36,7 +36,7 @@ module.exports = function (grunt) {
           destCss: '<%= config.app %>/styles',
           options: {
             stylesheet: 'css',
-            font: 'techcons',
+            font: 'technology-icons',
             syntax: 'bootstrap',
             baseClass: 'icon',
             hashes: false,
@@ -56,7 +56,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:websiddu/techcons.git',
+          remote: 'git@github.com:websiddu/technology-icons.git',
           branch: 'gh-pages'
         }
       }
@@ -189,7 +189,6 @@ module.exports = function (grunt) {
     // Compiles Sass to CSS and generates necessary files if requested
     sass: {
       options: {
-        sourcemap: true,
         loadPath: 'bower_components'
       },
       dist: {
@@ -358,7 +357,7 @@ module.exports = function (grunt) {
             'images/{,*/}*.webp',
             '{,*/}*.html',
             'fonts/{,*/}*.*',
-            'styles/techcons.css'
+            'styles/technology-icons.css'
           ]
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',

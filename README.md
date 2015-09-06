@@ -1,17 +1,17 @@
-## Techcons
+## technology-icons
 ### Technology Icons Font
 
-Techcons is a webfont which includes many technology icons.
+technology-icons is a webfont which includes many technology icons.
 
 Demo & dowmload links : http://websiddu.github.io/technology-icons/
 
 ## How to use
 
-#### [Download](https://github.com/websiddu/techcons/archive/gh-pages.zip)
+#### [Download](https://github.com/websiddu/technology-icons/archive/gh-pages.zip)
 
 - Once you download the .zip file unzip it.
 - Copy all the fonts from the fonts directory to you projects fonts directory
-- Copy the techcons.css file from styles folder to your styles folder.
+- Copy the technology-icons.css file from styles folder to your styles folder.
 - Make sure that you include the .css file in you html file.
 - Now you are good to go!!
 
