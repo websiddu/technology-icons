@@ -19,7 +19,8 @@ module.exports = function (grunt) {
   // Configurable paths
   var config = {
     app: 'app',
-    dist: 'dist'
+    dist: 'dist',
+    gp: 'gp'
   };
 
   // Define the configuration for all the tasks
@@ -49,7 +50,7 @@ module.exports = function (grunt) {
 
     buildcontrol: {
       options: {
-        dir: 'dist',
+        dir: 'gp',
         commit: true,
         push: true,
         message: 'Built from %sourceCommit% on branch %sourceBranch%'
@@ -346,6 +347,18 @@ module.exports = function (grunt) {
 
     // Copies remaining files to places other tasks can use
     copy: {
+
+
+      build: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: '<%= config.dist %>',
+          dest: '<%= config.gp %>',
+          src: '**'
+        }]
+      },
+
       dist: {
         files: [{
           expand: true,
@@ -473,7 +486,9 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
-  grunt.registerTask('deploy', 'Deploy to Github Pages', ['build', 'buildcontrol']);
+  grunt.registerTask('buildcopy', ['copy:build'])
+
+  grunt.registerTask('deploy', 'Deploy to Github Pages', ['build', 'buildcopy', 'buildcontrol']);
 
   grunt.registerTask('default', [
     'newer:jshint',
