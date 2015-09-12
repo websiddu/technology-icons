@@ -84,327 +84,351 @@
 	content:"\f10d";
 }
  
-.icon-less:before {
+.icon-visual-studio:before {
 	content:"\f10e";
 }
  
-.icon-sass:before {
+.icon-emmet:before {
 	content:"\f10f";
 }
  
-.icon-cassandra:before {
+.icon-less:before {
 	content:"\f110";
 }
  
-.icon-database:before {
+.icon-sass:before {
 	content:"\f111";
 }
  
-.icon-hadoop:before {
+.icon-cassandra:before {
 	content:"\f112";
 }
  
-.icon-mariadb:before {
+.icon-database:before {
 	content:"\f113";
 }
  
-.icon-mongodb:before {
+.icon-hadoop:before {
 	content:"\f114";
 }
  
-.icon-mysql-alt:before {
+.icon-mariadb:before {
 	content:"\f115";
 }
  
-.icon-mysql:before {
+.icon-mongodb:before {
 	content:"\f116";
 }
  
-.icon-postgres:before {
+.icon-mysql-alt:before {
 	content:"\f117";
 }
  
-.icon-sql:before {
+.icon-mysql:before {
 	content:"\f118";
 }
  
-.icon-backbone:before {
+.icon-postgres:before {
 	content:"\f119";
 }
  
-.icon-bootstrap:before {
+.icon-sql:before {
 	content:"\f11a";
 }
  
-.icon-express:before {
+.icon-backbone:before {
 	content:"\f11b";
 }
  
-.icon-grails:before {
+.icon-bootstrap:before {
 	content:"\f11c";
 }
  
-.icon-grailsalt:before {
+.icon-express:before {
 	content:"\f11d";
 }
  
-.icon-laravel-alt:before {
+.icon-grails:before {
 	content:"\f11e";
 }
  
-.icon-laravel:before {
+.icon-grailsalt:before {
 	content:"\f11f";
 }
  
-.icon-phonegap:before {
+.icon-laravel-alt:before {
 	content:"\f120";
 }
  
-.icon-platter:before {
+.icon-laravel:before {
 	content:"\f121";
 }
  
-.icon-playframework:before {
+.icon-phonegap:before {
 	content:"\f122";
 }
  
-.icon-rails-alt:before {
+.icon-platter:before {
 	content:"\f123";
 }
  
-.icon-rails:before {
+.icon-playframework:before {
 	content:"\f124";
 }
  
-.icon-jira-alt:before {
+.icon-rails-alt:before {
 	content:"\f125";
 }
  
-.icon-jira:before {
+.icon-rails:before {
 	content:"\f126";
 }
  
-.icon-jquery-alt:before {
+.icon-jira-alt:before {
 	content:"\f127";
 }
  
-.icon-jquery:before {
+.icon-jira:before {
 	content:"\f128";
 }
  
-.icon-c:before {
+.icon-jquery-alt:before {
 	content:"\f129";
 }
  
-.icon-cplusplus:before {
+.icon-jquery:before {
 	content:"\f12a";
 }
  
-.icon-csharp:before {
+.icon-c:before {
 	content:"\f12b";
 }
  
-.icon-haskell:before {
+.icon-cplusplus:before {
 	content:"\f12c";
 }
  
-.icon-java:before {
+.icon-csharp:before {
 	content:"\f12d";
 }
  
-.icon-nodejs:before {
+.icon-haskell:before {
 	content:"\f12e";
 }
  
-.icon-objectivec:before {
+.icon-java:before {
 	content:"\f12f";
 }
  
-.icon-perl:before {
+.icon-nodejs:before {
 	content:"\f130";
 }
  
-.icon-php-alt:before {
+.icon-objectivec:before {
 	content:"\f131";
 }
  
-.icon-php:before {
+.icon-perl:before {
 	content:"\f132";
 }
  
-.icon-python:before {
+.icon-php-alt:before {
 	content:"\f133";
 }
  
-.icon-ruby:before {
+.icon-php:before {
 	content:"\f134";
 }
  
-.icon-scala:before {
+.icon-python:before {
 	content:"\f135";
 }
  
-.icon-debian:before {
+.icon-ruby:before {
 	content:"\f136";
 }
  
-.icon-fedora:before {
+.icon-scala:before {
 	content:"\f137";
 }
  
-.icon-freebsd:before {
+.icon-debian:before {
 	content:"\f138";
 }
  
-.icon-gnome:before {
+.icon-fedora:before {
 	content:"\f139";
 }
  
-.icon-java-duke:before {
+.icon-freebsd:before {
 	content:"\f13a";
 }
  
-.icon-kde:before {
+.icon-gnome:before {
 	content:"\f13b";
 }
  
-.icon-linux-mint:before {
+.icon-java-duke:before {
 	content:"\f13c";
 }
  
-.icon-netbsd:before {
+.icon-kde:before {
 	content:"\f13d";
 }
  
-.icon-rasbaerrypi:before {
+.icon-linux-mint:before {
 	content:"\f13e";
 }
  
-.icon-redhat:before {
+.icon-netbsd:before {
 	content:"\f13f";
 }
  
-.icon-solaris:before {
+.icon-rasbaerrypi:before {
 	content:"\f140";
 }
  
-.icon-suse:before {
+.icon-redhat:before {
 	content:"\f141";
 }
  
-.icon-ubuntu:before {
+.icon-solaris:before {
 	content:"\f142";
 }
  
-.icon-confluence:before {
+.icon-suse:before {
 	content:"\f143";
 }
  
-.icon-osx:before {
+.icon-ubuntu:before {
 	content:"\f144";
 }
  
-.icon-codeignitor:before {
+.icon-confluence:before {
 	content:"\f145";
 }
  
-.icon-zend:before {
+.icon-osx:before {
 	content:"\f146";
 }
  
-.icon-apache:before {
+.icon-codeignitor:before {
 	content:"\f147";
 }
  
-.icon-jetty:before {
+.icon-zend:before {
 	content:"\f148";
 }
  
-.icon-memcached:before {
+.icon-apache:before {
 	content:"\f149";
 }
  
-.icon-nginx-alt:before {
+.icon-jetty:before {
 	content:"\f14a";
 }
  
-.icon-nginx:before {
+.icon-memcached:before {
 	content:"\f14b";
 }
  
-.icon-reids:before {
+.icon-nginx-alt:before {
 	content:"\f14c";
 }
  
-.icon-tomcat:before {
+.icon-nginx:before {
 	content:"\f14d";
 }
  
-.icon-ec3:before {
+.icon-reids:before {
 	content:"\f14e";
 }
  
-.icon-github-circle-alt:before {
+.icon-tomcat:before {
 	content:"\f14f";
 }
  
-.icon-github-circle:before {
+.icon-ec3:before {
 	content:"\f150";
 }
  
-.icon-github:before {
+.icon-github-circle-alt:before {
 	content:"\f151";
 }
  
-.icon-google-code:before {
+.icon-github-circle:before {
 	content:"\f152";
 }
  
-.icon-heroku:before {
+.icon-github:before {
 	content:"\f153";
 }
  
-.icon-shell-alt:before {
+.icon-google-code:before {
 	content:"\f154";
 }
  
-.icon-shell:before {
+.icon-heroku:before {
 	content:"\f155";
 }
  
-.icon-shellscript:before {
+.icon-shell-alt:before {
 	content:"\f156";
 }
  
-.icon-opensource:before {
+.icon-shell:before {
 	content:"\f157";
 }
  
-.icon-bower:before {
+.icon-shellscript:before {
 	content:"\f158";
 }
  
-.icon-git-squared:before {
+.icon-opensource:before {
 	content:"\f159";
 }
  
-.icon-css-alt:before {
+.icon-bower:before {
 	content:"\f15a";
 }
  
-.icon-css3-alt:before {
+.icon-grunt:before {
 	content:"\f15b";
 }
  
-.icon-css3:before {
+.icon-gulp:before {
 	content:"\f15c";
 }
  
-.icon-html5:before {
+.icon-git-squared:before {
 	content:"\f15d";
 }
  
-.icon-js:before {
+.icon-git:before {
 	content:"\f15e";
+}
+ 
+.icon-svn:before {
+	content:"\f15f";
+}
+ 
+.icon-css-alt:before {
+	content:"\f160";
+}
+ 
+.icon-css3-alt:before {
+	content:"\f161";
+}
+ 
+.icon-css3:before {
+	content:"\f162";
+}
+ 
+.icon-html5:before {
+	content:"\f163";
+}
+ 
+.icon-js:before {
+	content:"\f164";
 }
 
