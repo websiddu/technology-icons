@@ -316,119 +316,123 @@
 	content:"\f147";
 }
  
-.icon-zend:before {
+.icon-composer:before {
 	content:"\f148";
 }
  
-.icon-apache:before {
+.icon-zend:before {
 	content:"\f149";
 }
  
-.icon-jetty:before {
+.icon-apache:before {
 	content:"\f14a";
 }
  
-.icon-memcached:before {
+.icon-jetty:before {
 	content:"\f14b";
 }
  
-.icon-nginx-alt:before {
+.icon-memcached:before {
 	content:"\f14c";
 }
  
-.icon-nginx:before {
+.icon-nginx-alt:before {
 	content:"\f14d";
 }
  
-.icon-reids:before {
+.icon-nginx:before {
 	content:"\f14e";
 }
  
-.icon-tomcat:before {
+.icon-reids:before {
 	content:"\f14f";
 }
  
-.icon-ec3:before {
+.icon-tomcat:before {
 	content:"\f150";
 }
  
-.icon-github-circle-alt:before {
+.icon-ec3:before {
 	content:"\f151";
 }
  
-.icon-github-circle:before {
+.icon-github-circle-alt:before {
 	content:"\f152";
 }
  
-.icon-github:before {
+.icon-github-circle:before {
 	content:"\f153";
 }
  
-.icon-google-code:before {
+.icon-github:before {
 	content:"\f154";
 }
  
-.icon-heroku:before {
+.icon-google-code:before {
 	content:"\f155";
 }
  
-.icon-shell-alt:before {
+.icon-heroku:before {
 	content:"\f156";
 }
  
-.icon-shell:before {
+.icon-shell-alt:before {
 	content:"\f157";
 }
  
-.icon-shellscript:before {
+.icon-shell:before {
 	content:"\f158";
 }
  
-.icon-opensource:before {
+.icon-shellscript:before {
 	content:"\f159";
 }
  
-.icon-bower:before {
+.icon-opensource:before {
 	content:"\f15a";
 }
  
-.icon-grunt:before {
+.icon-bower:before {
 	content:"\f15b";
 }
  
-.icon-gulp:before {
+.icon-grunt:before {
 	content:"\f15c";
 }
  
-.icon-git-squared:before {
+.icon-gulp:before {
 	content:"\f15d";
 }
  
-.icon-git:before {
+.icon-git-squared:before {
 	content:"\f15e";
 }
  
-.icon-svn:before {
+.icon-git:before {
 	content:"\f15f";
 }
  
-.icon-css-alt:before {
+.icon-svn:before {
 	content:"\f160";
 }
  
-.icon-css3-alt:before {
+.icon-css-alt:before {
 	content:"\f161";
 }
  
-.icon-css3:before {
+.icon-css3-alt:before {
 	content:"\f162";
 }
  
-.icon-html5:before {
+.icon-css3:before {
 	content:"\f163";
 }
  
-.icon-js:before {
+.icon-html5:before {
 	content:"\f164";
+}
+ 
+.icon-js:before {
+	content:"\f165";
 }
 
