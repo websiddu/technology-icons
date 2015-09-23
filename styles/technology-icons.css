@@ -312,135 +312,139 @@
 	content:"\f146";
 }
  
-.icon-confluence:before {
+.icon-browsersync:before {
 	content:"\f147";
 }
  
-.icon-osx:before {
+.icon-confluence:before {
 	content:"\f148";
 }
  
-.icon-codeignitor:before {
+.icon-osx:before {
 	content:"\f149";
 }
  
-.icon-composer:before {
+.icon-codeignitor:before {
 	content:"\f14a";
 }
  
-.icon-zend:before {
+.icon-composer:before {
 	content:"\f14b";
 }
  
-.icon-apache:before {
+.icon-zend:before {
 	content:"\f14c";
 }
  
-.icon-jetty:before {
+.icon-apache:before {
 	content:"\f14d";
 }
  
-.icon-memcached:before {
+.icon-jetty:before {
 	content:"\f14e";
 }
  
-.icon-nginx-alt:before {
+.icon-memcached:before {
 	content:"\f14f";
 }
  
-.icon-nginx:before {
+.icon-nginx-alt:before {
 	content:"\f150";
 }
  
-.icon-reids:before {
+.icon-nginx:before {
 	content:"\f151";
 }
  
-.icon-tomcat:before {
+.icon-reids:before {
 	content:"\f152";
 }
  
-.icon-ec3:before {
+.icon-tomcat:before {
 	content:"\f153";
 }
  
-.icon-github-circle-alt:before {
+.icon-ec3:before {
 	content:"\f154";
 }
  
-.icon-github-circle:before {
+.icon-github-circle-alt:before {
 	content:"\f155";
 }
  
-.icon-github:before {
+.icon-github-circle:before {
 	content:"\f156";
 }
  
-.icon-google-code:before {
+.icon-github:before {
 	content:"\f157";
 }
  
-.icon-heroku:before {
+.icon-google-code:before {
 	content:"\f158";
 }
  
-.icon-shell-alt:before {
+.icon-heroku:before {
 	content:"\f159";
 }
  
-.icon-shell:before {
+.icon-shell-alt:before {
 	content:"\f15a";
 }
  
-.icon-shellscript:before {
+.icon-shell:before {
 	content:"\f15b";
 }
  
-.icon-opensource:before {
+.icon-shellscript:before {
 	content:"\f15c";
 }
  
-.icon-bower:before {
+.icon-opensource:before {
 	content:"\f15d";
 }
  
-.icon-grunt:before {
+.icon-bower:before {
 	content:"\f15e";
 }
  
-.icon-gulp:before {
+.icon-grunt:before {
 	content:"\f15f";
 }
  
-.icon-git-squared:before {
+.icon-gulp:before {
 	content:"\f160";
 }
  
-.icon-git:before {
+.icon-git-squared:before {
 	content:"\f161";
 }
  
-.icon-svn:before {
+.icon-git:before {
 	content:"\f162";
 }
  
-.icon-css-alt:before {
+.icon-svn:before {
 	content:"\f163";
 }
  
-.icon-css3-alt:before {
+.icon-css-alt:before {
 	content:"\f164";
 }
  
-.icon-css3:before {
+.icon-css3-alt:before {
 	content:"\f165";
 }
  
-.icon-html5:before {
+.icon-css3:before {
 	content:"\f166";
 }
  
-.icon-js:before {
+.icon-html5:before {
 	content:"\f167";
+}
+ 
+.icon-js:before {
+	content:"\f168";
 }
 
