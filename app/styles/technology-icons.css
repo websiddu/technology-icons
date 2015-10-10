@@ -428,35 +428,39 @@
 	content:"\f163";
 }
  
-.icon-git-squared:before {
+.icon-selenium:before {
 	content:"\f164";
 }
  
-.icon-git:before {
+.icon-git-squared:before {
 	content:"\f165";
 }
  
-.icon-svn:before {
+.icon-git:before {
 	content:"\f166";
 }
  
-.icon-css-alt:before {
+.icon-svn:before {
 	content:"\f167";
 }
  
-.icon-css3-alt:before {
+.icon-css-alt:before {
 	content:"\f168";
 }
  
-.icon-css3:before {
+.icon-css3-alt:before {
 	content:"\f169";
 }
  
-.icon-html5:before {
+.icon-css3:before {
 	content:"\f16a";
 }
  
-.icon-js:before {
+.icon-html5:before {
 	content:"\f16b";
+}
+ 
+.icon-js:before {
+	content:"\f16c";
 }
 
